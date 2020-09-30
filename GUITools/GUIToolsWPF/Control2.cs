@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommModuleExtensions
+namespace GUIToolsWPF
 {
-    public class Class1
+  public class Control2
+  {
+    public static string GetMyVersion()
     {
+      return "GUIToolsWPFVer=4.2.2.0";
     }
+  }
 }

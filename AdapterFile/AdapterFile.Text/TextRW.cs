@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AdapterFile.Text
 {
-    public class Class1
+  public class TextRW
+  {
+    public static string GetMyVersion()
     {
+      return "AdapterFile.TextVer=2.4.6.0";
     }
+  }
 }

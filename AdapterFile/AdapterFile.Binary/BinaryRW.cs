@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace AdapterFile.Binary
 {
-    public class Class1
+  public class BinaryRW
+  {
+    public static string GetMyVersion()
     {
+      return "AdapterFile.BinaryVer=2.4.6.0";
     }
+  }
 }

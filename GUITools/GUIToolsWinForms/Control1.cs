@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace GUIToolsWinForms
 {
-    public class Class1
+  public class Control1
+  {
+    public static string GetMyVersion()
     {
+      return "GUIToolsWinFormsVer=4.2.2.0";
     }
+  }
 }

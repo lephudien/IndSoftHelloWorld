@@ -10,7 +10,7 @@ namespace AdapterDB.MSSSQL
   {
     public static string GetMyVersion()
     {
-      return "AdapterDB.MSSSQLVer=1.1.0.0" + Environment.NewLine + "Using package System.Data.SqlClient 4.8.2";
+      return "AdapterDB.MSSSQLVer=1.3.5.0" + Environment.NewLine + "Using package System.Data.SqlClient 4.8.2";
     }
   }
 }

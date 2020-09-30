@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdapterDB.Oracle
+namespace CommModuleExtensions
 {
-  public class ReadFromDB
+  public class CommExtensions
   {
     public static string GetMyVersion()
     {
-      return "AdapterDB.OracleVer=1.3.5.0" + Environment.NewLine + "Using package Oracle.ManagedDataAccess 19.9";
+      return "CommExtensionsVer=3.2.1.0";
     }
   }
 }
