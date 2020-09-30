@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdapterDB.MSSSQL
+namespace LoggerChild1
 {
-  public class ReadFromDB
+  public class BinaryLog
   {
     public static string GetMyVersion()
     {
-      var test = new System.Data.SqlClient.SqlConnection();
+      //var test = new AdapterFile.Binary.;
       //Debug.Assert(test == null);
 
       return "AdapterDB.MSSSQLVer=1.3.5.0" + Environment.NewLine + "Using package System.Data.SqlClient 4.8.2";
