@@ -13,7 +13,7 @@ namespace AdapterDB.MSSSQL
       var test = new System.Data.SqlClient.SqlConnection();
       //Debug.Assert(test == null);
 
-      return "AdapterDB.MSSSQLVer=1.3.5.0" + Environment.NewLine + "Using package System.Data.SqlClient 4.8.2";
+      return "AdapterDB.MSSSQLVer=1.3.5.1" + Environment.NewLine + "Using package System.Data.SqlClient 4.8.2";
     }
   }
 }
