@@ -10,7 +10,10 @@ namespace LoggerChild1
   {
     public static string GetMyVersion()
     {
-      return "AdapterDB.MSSSQLVer=1.3.5.0" + Environment.NewLine + "Using: " + AdapterFile.Binary.BinaryRW.GetMyVersion();
+      System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+      System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
+
+      return "BinaryLogVer=" + fvi.FileVersion + Environment.NewLine + "Using: " + AdapterFile.Binary.BinaryRW.GetMyVersion();
     }
   }
 }

@@ -10,7 +10,10 @@ namespace LoggerChildText
   {
     public static string GetMyVersion()
     {
-      return "AdapterDB.MSSSQLVer=1.3.5.0"
+      System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+      System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
+
+      return "TextLogVer=" + fvi.FileVersion
               + Environment.NewLine
               + "Using: " + AdapterFile.Text.TextRW.GetMyVersion();
     }

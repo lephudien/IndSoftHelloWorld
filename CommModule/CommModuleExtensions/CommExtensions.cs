@@ -10,7 +10,10 @@ namespace CommModuleExtensions
   {
     public static string GetMyVersion()
     {
-      return "CommExtensionsVer=3.2.1.0";
+      System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+      System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
+
+      return "CommExtensionsVer=" + fvi.FileVersion;
     }
   }
 }

@@ -14,8 +14,11 @@ namespace AdapterDB.Oracle
     {
       var test = new OracleNotificationSource();
       Debug.Assert(test == null);
-      
-      return "AdapterDB.OracleVer=1.3.5.0" + Environment.NewLine + "Using package Oracle.ManagedDataAccess 19.9";
+
+      System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+      System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
+
+      return "AdapterDB.OracleVer=" + fvi.FileVersion + Environment.NewLine + "Using package Oracle.ManagedDataAccess 19.9";
     }
   }
 }

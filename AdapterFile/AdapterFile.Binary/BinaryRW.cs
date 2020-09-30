@@ -10,7 +10,10 @@ namespace AdapterFile.Binary
   {
     public static string GetMyVersion()
     {
-      return "AdapterFile.BinaryVer=2.4.6.0";
+      System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+      System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
+
+      return "AdapterFile.BinaryVer=" + fvi.FileVersion;
     }
   }
 }

@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CommModuleCore
+namespace ServerClientComm
 {
-  public class CommCore
+  public class ServerClientComm
   {
     public static string GetMyVersion()
     {
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
 
-      return "CommCoreVer=" + fvi.FileVersion + Environment.NewLine + "Using CommExtensions: " + CommModuleExtensions.CommExtensions.GetMyVersion();
+      return "ServerClientCommVer=" + fvi.FileVersion;
     }
   }
 }

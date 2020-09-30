@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +78,32 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServerClientComm\ServerClientComm.csproj">
+      <Project>{1d64f62a-dc6c-4afd-ac6d-e119a3adb858}</Project>
+      <Name>ServerClientComm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AdapterDB.MSSSQL">
+      <Version>1.3.5.109</Version>
+    </PackageReference>
+    <PackageReference Include="AdapterDB.Oracle">
+      <Version>1.3.5.109</Version>
+    </PackageReference>
+    <PackageReference Include="AdapterFile.Binary">
+      <Version>2.4.6.205</Version>
+    </PackageReference>
+    <PackageReference Include="AdapterFile.Text">
+      <Version>2.4.6.205</Version>
+    </PackageReference>
+    <PackageReference Include="CommModuleCore">
+      <Version>3.2.1.304</Version>
+    </PackageReference>
+    <PackageReference Include="LoggerChildDB">
+      <Version>1.3.5.505</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

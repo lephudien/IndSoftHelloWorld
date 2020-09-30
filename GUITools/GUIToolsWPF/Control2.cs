@@ -10,7 +10,10 @@ namespace GUIToolsWPF
   {
     public static string GetMyVersion()
     {
-      return "GUIToolsWPFVer=4.2.2.0";
+      System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+      System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
+
+      return "GUIToolsWPFVer=" + fvi.FileVersion;
     }
   }
 }

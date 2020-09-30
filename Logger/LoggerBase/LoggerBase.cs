@@ -12,8 +12,10 @@ namespace LoggerBase
     {
       //var test = new System.Data.SqlClient.SqlConnection();
       //Debug.Assert(test == null);
+      System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+      System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
 
-      return "LoggerBaseVer=5.1.3.0";
+      return "LoggerBaseVer=" + fvi.FileVersion;
     }
   }
 }

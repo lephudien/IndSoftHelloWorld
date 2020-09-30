@@ -10,7 +10,10 @@ namespace GUIToolsWinForms
   {
     public static string GetMyVersion()
     {
-      return "GUIToolsWinFormsVer=4.2.2.0";
+      System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
+      System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
+
+      return "GUIToolsWinFormsVer=" + fvi.FileVersion;
     }
   }
 }
