@@ -80,12 +80,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ServerClientComm\ServerClientComm.csproj">
-      <Project>{1d64f62a-dc6c-4afd-ac6d-e119a3adb858}</Project>
-      <Name>ServerClientComm</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="AdapterDB.MSSSQL">
       <Version>1.3.5.109</Version>
     </PackageReference>
@@ -104,6 +98,12 @@
     <PackageReference Include="LoggerChildDB">
       <Version>1.3.5.505</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ServerClientComm\ServerClientComm.csproj">
+      <Project>{1d64f62a-dc6c-4afd-ac6d-e119a3adb858}</Project>
+      <Name>ServerClientComm</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
