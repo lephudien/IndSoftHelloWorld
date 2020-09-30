@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIToolsWPF", "GUIToolsWPF\GUIToolsWPF.csproj", "{F4FD13E3-65FD-4CC4-B9FB-C65E6647C1E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIToolsWinForms", "GUIToolsWinForms\GUIToolsWinForms.csproj", "{B201737D-4C24-40CA-8950-71141EAE6A8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4FD13E3-65FD-4CC4-B9FB-C65E6647C1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FD13E3-65FD-4CC4-B9FB-C65E6647C1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FD13E3-65FD-4CC4-B9FB-C65E6647C1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FD13E3-65FD-4CC4-B9FB-C65E6647C1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B201737D-4C24-40CA-8950-71141EAE6A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B201737D-4C24-40CA-8950-71141EAE6A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B201737D-4C24-40CA-8950-71141EAE6A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B201737D-4C24-40CA-8950-71141EAE6A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9693364E-A705-4B90-9D12-8EA511E451F0}
+	EndGlobalSection
+EndGlobal

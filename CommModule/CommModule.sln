@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommModuleCore", "CommModuleCore\CommModuleCore.csproj", "{922D1DA8-0E4D-491E-8FCF-672CA1052071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommModuleExtensions", "CommModuleExtensions\CommModuleExtensions.csproj", "{29958219-FA10-4020-969B-E54EC6F47477}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{922D1DA8-0E4D-491E-8FCF-672CA1052071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922D1DA8-0E4D-491E-8FCF-672CA1052071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922D1DA8-0E4D-491E-8FCF-672CA1052071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922D1DA8-0E4D-491E-8FCF-672CA1052071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29958219-FA10-4020-969B-E54EC6F47477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29958219-FA10-4020-969B-E54EC6F47477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29958219-FA10-4020-969B-E54EC6F47477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29958219-FA10-4020-969B-E54EC6F47477}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8C0F1F9-DB36-497E-A7E7-46AFECF4B788}
+	EndGlobalSection
+EndGlobal
