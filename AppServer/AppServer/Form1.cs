@@ -21,11 +21,13 @@ namespace AppServer
     {
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
-      
+
       System.Windows.Forms.MessageBox.Show("AppServerVer=" + fvi.FileVersion
                                             + Environment.NewLine
-                                            + "Using: " + ServerClientComm.ServerClientComm.GetMyVersion()
+                                            + "Using: " + ServerClientComm.ServerClientComm.GetMyVersion());
+                                            /*
                                             + Environment.NewLine
+                                            
                                             + "Using: " + AdapterDB.MSSSQL.ReadFromDB.GetMyVersion()
                                             + Environment.NewLine
                                             + "Using: " + AdapterDB.Oracle.ReadFromDB.GetMyVersion()
@@ -36,7 +38,7 @@ namespace AppServer
                                             + Environment.NewLine
                                             + "Using: " + LoggerChildDB.DBLog.GetMyVersion()
                                             +Environment.NewLine
-                                            + "Using: " + CommModuleCore.CommCore.GetMyVersion());
+                                            + "Using: " + CommModuleCore.CommCore.GetMyVersion());*/
     }
   }
 }
