@@ -17,7 +17,7 @@ namespace LoggerChildDB
               + Environment.NewLine 
               + "Using: " + AdapterDB.MSSSQL.ReadFromDB.GetMyVersion()
               + Environment.NewLine
-              + "Using: " + AdapterDB.Oracle.ReadFromDB.GetMyVersion();
+              + "Using: " + AdapterDB.Oracle2.ReadFromDB.GetMyVersion();
     }
   }
 }
