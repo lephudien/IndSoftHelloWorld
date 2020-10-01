@@ -1,12 +1,11 @@
-﻿using Oracle.ManagedDataAccess.Client;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdapterDB.Oracle
+namespace AdapterDB.Oracle2
 {
   public class ReadFromDB
   {
@@ -14,7 +13,7 @@ namespace AdapterDB.Oracle
     {
       int a = Common.Constants.CONSTANTY.C_NEJAKA_VERZE;
 
-      var test = new OracleNotificationSource();
+      var test = new Oracle.ManagedDataAccess.Client.OracleConnection();      
       //Debug.Assert(test == null);
 
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
