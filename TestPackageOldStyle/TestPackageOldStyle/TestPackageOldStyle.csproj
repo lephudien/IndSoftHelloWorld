@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DD59C245-B0FA-4E80-8E18-FB155061FB87}</ProjectGuid>
+    <ProjectGuid>{310B2C2E-0842-47C0-9D3E-676F0B230694}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LoggerChildDB</RootNamespace>
-    <AssemblyName>LoggerChildDB</AssemblyName>
+    <RootNamespace>TestPackageOldStyle</RootNamespace>
+    <AssemblyName>TestPackageOldStyle</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,17 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBLog.cs" />
+    <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="AdapterDB.MSSSQL">
-      <Version>1.3.5.135</Version>
-      <PrivateAssets>all</PrivateAssets>
+    <PackageReference Include="Google.Apis.Core">
+      <Version>1.49.0</Version>
     </PackageReference>
-    <PackageReference Include="AdapterDB.Oracle">
-      <Version>1.3.5.135</Version>
-      <PrivateAssets>all</PrivateAssets>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
