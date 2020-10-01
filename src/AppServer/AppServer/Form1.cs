@@ -24,7 +24,11 @@ namespace AppServer
 
       System.Windows.Forms.MessageBox.Show("AppServerVer=" + fvi.FileVersion
                                             + Environment.NewLine
-                                            + "Using: " + ServerClientComm.ServerClientComm.GetMyVersion());
+                                            + "Using: " + ServerClientComm.ServerClientComm.GetMyVersion()
+                                            + Environment.NewLine
+                                            + "Using: " + LoggerChildDB.DBLog.GetMyVersion()
+                                            + Environment.NewLine
+                                            + "Using: " + CommModuleCore.CommCore.GetMyVersion());
                                             /*
                                             + Environment.NewLine
                                             
