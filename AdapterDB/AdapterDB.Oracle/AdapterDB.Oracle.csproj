@@ -41,10 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\Common\common.cs">
+      <Link>common.cs</Link>
+    </Compile>
     <Compile Include="ReadFromDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
+    </PackageReference>
     <PackageReference Include="Oracle.ManagedDataAccess">
       <Version>19.9.0</Version>
       <PrivateAssets>all</PrivateAssets>
