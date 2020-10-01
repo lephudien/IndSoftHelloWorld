@@ -13,7 +13,7 @@ namespace AdapterDB.Oracle
     public static string GetMyVersion()
     {
       var test = new OracleNotificationSource();
-      Debug.Assert(test == null);
+      //Debug.Assert(test == null);
 
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
