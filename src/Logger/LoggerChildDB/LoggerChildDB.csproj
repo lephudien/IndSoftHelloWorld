@@ -31,6 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdapterDB.MSSSQL, Version=1.3.5.136, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AdapterDB.MSSSQL.1.3.5.136\lib\net472\AdapterDB.MSSSQL.dll</HintPath>
+    </Reference>
+    <Reference Include="AdapterDB.Oracle, Version=1.3.5.136, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AdapterDB.Oracle.1.3.5.136\lib\net472\AdapterDB.Oracle.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,14 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="AdapterDB.MSSSQL">
-      <Version>1.3.5.135</Version>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="AdapterDB.Oracle">
-      <Version>1.3.5.135</Version>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
