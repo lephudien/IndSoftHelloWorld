@@ -31,8 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AdapterFile.Binary, Version=2.4.6.227, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AdapterFile.Binary.2.4.6.227\lib\net472\AdapterFile.Binary.dll</HintPath>
+    <Reference Include="AdapterFile.Binary, Version=2.4.6.232, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AdapterFile.Binary.2.4.6.232\lib\net472\AdapterFile.Binary.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Core, Version=1.49.0.0, Culture=neutral, PublicKeyToken=4b01fa6e34db77ab, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Apis.Core.1.49.0\lib\net45\Google.Apis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

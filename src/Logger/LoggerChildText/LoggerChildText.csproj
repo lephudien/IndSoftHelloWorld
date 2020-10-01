@@ -31,8 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AdapterFile.Text, Version=2.4.6.227, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AdapterFile.Text.2.4.6.227\lib\net472\AdapterFile.Text.dll</HintPath>
+    <Reference Include="AdapterFile.Text, Version=2.4.6.232, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AdapterFile.Text.2.4.6.232\lib\net472\AdapterFile.Text.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
