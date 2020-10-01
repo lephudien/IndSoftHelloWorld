@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AdapterFile.Binary">
-      <Version>2.4.6.201</Version>
+      <Version>2.4.6.227</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

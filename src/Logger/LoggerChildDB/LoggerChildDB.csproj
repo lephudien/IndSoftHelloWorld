@@ -46,10 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AdapterDB.MSSSQL">
-      <Version>1.3.5.101</Version>
+      <Version>1.3.5.135</Version>
     </PackageReference>
     <PackageReference Include="AdapterDB.Oracle">
-      <Version>1.3.5.101</Version>
+      <Version>1.3.5.135</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
