@@ -13,7 +13,7 @@ namespace GUIToolsWPF
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
 
-      return "GUIToolsWPFVer=" + fvi.FileVersion;
+      return "GUIToolsWPFVer=" + fvi.FileVersion + Environment.NewLine + "using Castle.Core 4.4.1";
     }
   }
 }
