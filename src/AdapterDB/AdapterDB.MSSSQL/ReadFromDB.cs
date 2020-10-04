@@ -15,8 +15,7 @@ namespace AdapterDB.MSSSQL
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
       
-
-      return "AdapterDB.MSSSQLVer=" + fvi.FileVersion + Environment.NewLine + "Using package System.Data.SqlClient 4.8.2";
+      return $"AdapterDB.MSSSQLVer={fvi.FileVersion}{Environment.NewLine}Using EXTERNAL System.Data.SqlClient 4.8.2";
     }
   }
 }
