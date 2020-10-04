@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NUnit.Framework.Api;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace AdapterDB.Oracle2
 
       var test = new Oracle.ManagedDataAccess.Client.OracleConnection();
       //Debug.Assert(test == null);
-      var test2 = new NUnit.Framework.Api.FrameworkController("a", "b", null);
+      var test2 = new NUnit.Framework.Constraints.AndOperator();
 
       System.Reflection.Assembly assembly = System.Reflection.Assembly.GetExecutingAssembly();
       System.Diagnostics.FileVersionInfo fvi = System.Diagnostics.FileVersionInfo.GetVersionInfo(assembly.Location);
